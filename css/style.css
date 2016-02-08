@@ -1,0 +1,39 @@
+.top-nav {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999
+}
+
+.content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.links {
+  list-style-type: none;
+}
+
+.links li {
+  display: inline-block;
+  margin-left: 1.5rem;
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+
+.links a:hover {
+  color:#000;
+}
+
+.links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.logo {
+  height: 4.5rem;
+}
