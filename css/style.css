@@ -1,39 +1,105 @@
+html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0px 15px;
+  width: 970px;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+}
+
+/* Top Nav */
+
 .top-nav {
   background-color: #fff;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
-  z-index: 9999
+  z-index: 9999;
 }
 
-.content {
-  width: 970px;
-  height: 70px;
-  margin: 0 auto;
+.top-nav > .content {
+  height: 4.375rem;
 }
 
-.links {
-  list-style-type: none;
-}
 
-.links li {
-  display: inline-block;
-  margin-left: 1.5rem;
+.top-nav .links {
   float: right;
-  color: #838994;
-  font-size: 1.04rem;
-  margin-top: 1.7rem;
+  margin-top: 25px;
 }
 
-.links a:hover {
-  color:#000;
+.top-nav .links  li {
+  display: inline-block;
+  margin-left: 1.563rem;
 }
 
-.links .active {
+.top-nav .links .active {
   color: #4c5058;
   font-weight: 500;
 }
+.top-nav .links  a {
+  text-decoration: none;
+  color: #838994;
+  font-size: 1.04rem;
+}
 
-.logo {
+.top-nav .links  a:hover {
+  color:#333333;
+}
+
+.top-nav .logo {
   height: 4.5rem;
+}
+
+/* Introduction */
+
+.introduction {
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction  h1, h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.introduction h1 {
+  margin-top: 17.2rem;
+  font-size: 3.125em;
+}
+
+.introduction h3 {
+  margin-top: -1.2rem;
+  font-size: 1.57rem;
+}
+
+.introduction button {
+  text-align: center;
+  width: 9rem;
+  color: #fff;
+  background-color: #F15A29;
+  margin:0 auto;
+  font-size: 18px;
 }
