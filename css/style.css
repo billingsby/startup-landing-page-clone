@@ -103,3 +103,46 @@ button {
   margin:0 auto;
   font-size: 18px;
 }
+
+/* Cases Section */
+
+.cases {
+  background-color: #fff;
+ 
+  padding-bottom: 5rem;
+}
+
+.cases .content {
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases h2 {
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 300;
+
+}
+
+.cases .devices > li {
+  float: left;
+  width: 33.3333333%;
+  display: inline-block;
+  /* styles to assist with debugging */    
+  height: 4em;
+}
+  
+
+.cases .devices h3 {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+.cases img {
+  width: 8rem;
+}
+
