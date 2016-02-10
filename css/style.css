@@ -19,10 +19,10 @@ body {
 }
 
 button {
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
 }
 
 /* Top Nav */
@@ -95,21 +95,24 @@ button {
   font-size: 1.57rem;
 }
 
-.introduction button {
+.introduction .buttons {
   text-align: center;
-  width: 9rem;
+}
+.introduction button {
+  width: 9.5rem;
   color: #fff;
   background-color: #F15A29;
-  margin:0 auto;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
   font-size: 18px;
+
 }
 
 /* Cases Section */
 
 .cases {
   background-color: #fff;
- 
-  padding-bottom: 5rem;
+  padding-bottom: 20rem;
 }
 
 .cases .content {
@@ -129,8 +132,7 @@ button {
 .cases .devices > li {
   float: left;
   width: 33.3333333%;
-  display: inline-block;
-  /* styles to assist with debugging */    
+  display: inline-block;   
   height: 4em;
 }
   
@@ -146,3 +148,56 @@ button {
   width: 8rem;
 }
 
+/* Footer Section */
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.social .icons {
+  padding: 0;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
